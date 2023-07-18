@@ -5,7 +5,6 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, 
 from telegraph import upload_file
 from utils import get_file_id
 
-
 @Client.on_message(filters.command("telegraph") & filters.private)
 async def telegraph_upload(bot, update):
     replied = update.reply_to_message
