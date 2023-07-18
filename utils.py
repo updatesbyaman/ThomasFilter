@@ -815,8 +815,39 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Kgashok04")
+                        InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorrio")
                         ]
                     ]
                 )
             )'''
+def get_size(size): 
+     """Get size in readable format""" 
+  
+     units = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB"] 
+     size = float(size) 
+     i = 0 
+     while size >= 1024.0 and i < len(units): 
+         i += 1 
+         size /= 1024.0 
+     return "%.2f %s" % (size, units[i]) 
+  
+ def split_list(l, n): 
+     for i in range(0, len(l), n): 
+         yield l[i:i + n]   
+  
+ def get_file_id(msg: Message): 
+     if msg.media: 
+         for message_type in ( 
+             "photo", 
+             "animation", 
+             "audio", 
+             "document", 
+             "video", 
+             "video_note", 
+             "voice", 
+             "sticker" 
+         ): 
+             obj = getattr(msg, message_type) 
+             if obj: 
+                 setattr(obj, "message_type", message_type) 
+                 return obj
