@@ -1563,8 +1563,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 InputMediaPhoto(random.choice(PICS))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_tex               text=script.ABOUT_TXT.format(temp.B_NAME),
-            reply_markup=reply_markup,
+        await   
+           query.message.edit_text(                              
+           text=script.HELP_TXT,  
+           reply_markup=reply_markup,
           
  parse_mode=enums.ParseMode.HTML
         )
@@ -1575,7 +1577,7 @@ InputMediaPhoto(random.choice(PICS))
          ], [ 
              InlineKeyboardButton('ᴛᴛꜱ', callback_data='tts'), 
              InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song'), 
-            ], ] InlineKeyboardButton('ꜱʜᴏʀᴛɴᴇʀ', callback_data='earntxt'),
+            ], ] InlineKeyboardButton('ꜱʜᴏʀᴛɴᴇʀ', callback_data='shortlink_info'),
          ], [
              InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'), 
              InlineKeyboardButton('ᴘᴀɢᴇ 1/1', callback_data='page'),  
