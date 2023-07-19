@@ -1566,7 +1566,7 @@ InputMediaPhoto(random.choice(PICS))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.GFILTER_TXT,
+            text=script.HELP_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
            
  parse_mode=enums.ParseMode.HTML
