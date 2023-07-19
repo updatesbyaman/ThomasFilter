@@ -1585,7 +1585,7 @@ InputMediaPhoto(random.choice(PICS))
              InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'), 
              InlineKeyboardButton('ᴘᴀɢᴇ 1/1', callback_data='page'),  
          ]]
-            InputMediaPhoto(random.choice(PICS))
+InputMediaPhoto(random.choice(PICS))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
