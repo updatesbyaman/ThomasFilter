@@ -1580,7 +1580,8 @@ InputMediaPhoto(random.choice(PICS))
          ], [ 
              InlineKeyboardButton('ᴛᴛꜱ', callback_data='tts'), 
              InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song'), 
-            ], ] InlineKeyboardButton('ꜱʜᴏʀᴛɴᴇʀ', callback_data='shortlink_info'),
+         ], [ 
+             InlineKeyboardButton('ꜱʜᴏʀᴛɴᴇʀ', callback_data='shortlink_info'),
          ], [
              InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'), 
              InlineKeyboardButton('ᴘᴀɢᴇ 1/1', callback_data='page'),  
