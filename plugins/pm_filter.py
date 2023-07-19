@@ -1398,7 +1398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "filters":
         buttons = [[
-            InlinekeyboardButton('🎁More Features🎁', callback_data='special1'),
+            InlinekeyboardButton('🎁More Features🎁',callback_data='features'),
            ],[
             InlineKeyboardButton('Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
@@ -1437,7 +1437,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlinekeyboardButton('🎁More Features🎁', callback_data='special1'),
+            InlinekeyboardButton('🎁More Features🎁',callback_data='features'),
            ],[
             InlineKeyboardButton('FIʟᴛᴇʀs', callback_data='filters'),
             InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file')
@@ -1568,12 +1568,12 @@ InputMediaPhoto(random.choice(PICS))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.HELP_TXT.format(temp.B_NAME),
+            text=script.FEATURES_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
            
  parse_mode=enums.ParseMode.HTML
          )
-      elif query.data == "special1": 
+      elif query.data == "features": 
          buttons = [[ 
             InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ', callback_data='sticker'), 
              InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='telegraph'),
