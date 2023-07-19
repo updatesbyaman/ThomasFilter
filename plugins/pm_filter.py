@@ -1398,8 +1398,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "filters":
         buttons = [[
-            InlinekeyboardButton('🎁 More Features 🎁',callback_data='features'),
-           ],[
             InlineKeyboardButton('Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
         ],[
@@ -1437,8 +1435,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlinekeyboardButton('🎁 More Features 🎁',callback_data='features'),
-        ],[
             InlineKeyboardButton('FIʟᴛᴇʀs', callback_data='filters'),
             InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file')
         ],[
@@ -1573,31 +1569,7 @@ InputMediaPhoto(random.choice(PICS))
            
  parse_mode=enums.ParseMode.HTML
          )
-    elif query.data == "features": 
-         buttons = [[ 
-            InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ', callback_data='sticker'), 
-             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='telegraph'),
-         ], [ 
-             InlineKeyboardButton('ᴛᴛꜱ', callback_data='tts'), 
-             InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song'), 
-            ],[ InlineKeyboardButton('ꜱʜᴏʀᴛɴᴇʀ', callback_data='shortlink_info'),
-         ],[
-             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'), 
-             InlineKeyboardButton('ᴘᴀɢᴇ 1/1', callback_data='page'),  
-         ]]
-         await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-             
-InputMediaPhoto(random.choice(PICS))
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.EXTRAMOD_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-
+    
     elif query.data == "store_file":
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
