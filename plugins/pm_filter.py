@@ -1396,7 +1396,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "filters":
         buttons = [[
-            InlinekeyboardButton('🎁More Features🎁', callback_data='🎁morefeatures🎁'),
+            InlinekeyboardButton('🎁More Features🎁', callback_data='special1'),
            ],[
             InlineKeyboardButton('Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
@@ -1435,6 +1435,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
+            InlinekeyboardButton('🎁More Features🎁', callback_data='special1'),
+           ],[
             InlineKeyboardButton('FIʟᴛᴇʀs', callback_data='filters'),
             InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', callback_data='store_file')
         ], [
@@ -1569,7 +1571,7 @@ InputMediaPhoto(random.choice(PICS))
            
  parse_mode=enums.ParseMode.HTML
          )
-      elif query.data == "🎁morefeatures🎁": 
+      elif query.data == "special1": 
          buttons = [[ 
             InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ', callback_data='sticker'), 
              InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='telegraph'),
