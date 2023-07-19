@@ -281,7 +281,7 @@ STICKER_TXT = """<b>yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴛ�
 </b>"""
 
 
-FONT_TXT= """<b>ᴜꜱᴀɢᴇ
+FONT_TXT = """<b>ᴜꜱᴀɢᴇ
 
 yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ꜰᴏɴᴛ ꜱᴛyʟᴇ  
 
@@ -289,3 +289,9 @@ yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴛᴏ ᴄʜᴀɴɢᴇ �
 ᴇɢ:- /font ʜᴇʟʟᴏ
 
 </b>"""
+
+FEATURES_TXT = """<b>my features Stay here new features coming soon...
+
+<b>✯ Maintained by : <a href=https://t.me/creatorrio>☢ Owner Of RIO NETWORKS ☢</a></b>
+
+<b>✯ Join here : <a href=https://t.me/Teamrioupdates>☢Join my updateds☢</a></b>"""
