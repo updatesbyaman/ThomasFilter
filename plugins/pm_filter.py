@@ -1585,6 +1585,10 @@ InputMediaPhoto(random.choice(PICS))
              InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'), 
              InlineKeyboardButton('ᴘᴀɢᴇ 1/1', callback_data='page'),  
          ]]
+         await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+             
 InputMediaPhoto(random.choice(PICS))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
