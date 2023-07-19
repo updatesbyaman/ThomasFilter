@@ -1559,6 +1559,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
+
+InputMediaPhoto(random.choice(PICS))
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_tex
+            reply_markup=reply_markup,
+          
+ parse_mode=enums.ParseMode.HTML
+        )
+      elif query.data == "🎁More Features 🎁": 
+         buttons = [[ 
+             InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ', callback_data='sticker'), 
+             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='telegraph'),
+         ], [ 
+             InlineKeyboardButton('ᴛᴛꜱ', callback_data='tts'), 
+             InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song'), 
+            ], ] InlineKeyboardButton('ꜱʜᴏʀᴛɴᴇʀ', callback_data='earntxt'),
+         ], [
+             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'), 
+             InlineKeyboardButton('ᴘᴀɢᴇ 1/1', callback_data='page'),  
+         ]]
             InputMediaPhoto(random.choice(PICS))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
