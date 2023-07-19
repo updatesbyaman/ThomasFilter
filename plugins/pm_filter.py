@@ -916,7 +916,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=SUPPORT_CHAT),
                               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                             ],[
-                              InlineKeyboardButton("MY best friend", url="{message.from_user.first_name}")
+                              InlineKeyboardButton("MY Owner", url="https://t.me/creatorrio")
                              ]
                             ]
                         )
@@ -1009,7 +1009,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=SUPPORT_CHAT),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                  InlineKeyboardButton("MY best friend", url="{message.from_user.first_name}")
+                  InlineKeyboardButton("My Owner",url="https://t.me/creatorrio")
                  ]
                 ]
             )
@@ -1396,6 +1396,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "filters":
         buttons = [[
+            InlinekeyboardButton('🎁More Features🎁', callback_data='morefeatures'),
+           ],[
             InlineKeyboardButton('Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
         ],[
