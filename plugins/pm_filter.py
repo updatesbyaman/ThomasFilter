@@ -1563,7 +1563,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 InputMediaPhoto(random.choice(PICS))
         )
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_tex
+        await query.message.edit_tex               text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
           
  parse_mode=enums.ParseMode.HTML
