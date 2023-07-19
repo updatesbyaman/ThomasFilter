@@ -54,7 +54,7 @@ async def start(client, message):
                     InlineKeyboardButton('✅ Eᴀʀɴ Mᴏɴᴇʏ ✅', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("https://graph.org/file/f648575d792ced9835cf6.jpg") 
+        m=await message.reply_sticker("https://te.legra.ph/file/b9ef16aa49e669fb14da7.jpg") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
