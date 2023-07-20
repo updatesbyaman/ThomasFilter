@@ -101,12 +101,12 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ☑️ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ✅ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
 
-    LOG_TEXT_G = """#NewGroup
+    LOG_TEXT_G = """#NewGroup ✨
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}"""
 
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """#NewUser 😝
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}"""
 
@@ -198,8 +198,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 ╔════ 😉😉😉😉😉 ════╗
- Thanks for using friend 
-  Keep supporting 
+ Thanks for using me, My friend 
+      Keep supporting 
 ╚════ 😍😍😍😍😍 ════╝</b>""" 
 
     IMDB_TEMPLATE_TXT = """
