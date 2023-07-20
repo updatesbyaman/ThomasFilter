@@ -48,7 +48,7 @@ async def start(client, message):
                     InlineKeyboardButton('🌼 Hᴇʟᴘ 🌼', callback_data='help'),
                     InlineKeyboardButton('✨ Aʙᴏᴜᴛ ✨', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✅ Eᴀʀɴ Mᴏɴᴇʏ ✅', callback_data="shortlink_info")
+                    InlineKeyboardButton('✅ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ✅', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("https://te.legra.ph/file/b9ef16aa49e669fb14da7.jpg") 
@@ -96,7 +96,7 @@ async def start(client, message):
                     InlineKeyboardButton('🌼 Hᴇʟᴘ 🌼', callback_data='help'),
                     InlineKeyboardButton('✨ Aʙᴏᴜᴛ ✨', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✅ Eᴀʀɴ Mᴏɴᴇʏ ✅', callback_data="shortlink_info")
+                    InlineKeyboardButton('✅ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ✅', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -147,7 +147,6 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🌸 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🌸', url=f'https://t.me/{SUPPORT_CHAT}'),
                           InlineKeyboardButton('🌼 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
                        ],[
                           InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
@@ -166,7 +165,6 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🌸 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🌸', url=f'https://t.me/{SUPPORT_CHAT}'),
                           InlineKeyboardButton('🌼 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
                        ],[
                           InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
@@ -330,7 +328,6 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🌸 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🌸', url=f'https://t.me/{SUPPORT_CHAT}'),
                       InlineKeyboardButton('🌼 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
                        ],[
                       InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
@@ -392,7 +389,6 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🌸 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🌸', url=f'https://t.me/{SUPPORT_CHAT}'),
                       InlineKeyboardButton('🌼 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
                        ],[
                       InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
@@ -452,7 +448,6 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🌸 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🌸', url=f'https://t.me/{SUPPORT_CHAT}'),
               InlineKeyboardButton('🌼 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
            ],[
               InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
