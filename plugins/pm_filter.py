@@ -915,7 +915,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('✨ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ✨', url=SUPPORT_CHAT),
                               InlineKeyboardButton('🌸 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌸', url=CHNL_LNK)
                             ],[
                               InlineKeyboardButton("🫧 MY Owner 🫧", url="https://t.me/Theamamchaudhary")
@@ -1008,7 +1007,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('✨ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ✨', url=SUPPORT_CHAT),
                   InlineKeyboardButton('🌸 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌸', url=CHNL_LNK)
                 ],[
                   InlineKeyboardButton("🫧 My Owner 🫧",url="https://t.me/theamanchaudhary")
@@ -1377,7 +1375,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🌼 Hᴇʟᴘ 🌼', callback_data='help'),
                     InlineKeyboardButton('✨ Aʙᴏᴜᴛ ✨', callback_data='about')
                 ],[
-                    InlineKeyboardButton('✅ Eᴀʀɴ Mᴏɴᴇʏ ✅', callback_data="shortlink_info")
+                    InlineKeyboardButton('✅ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ✅', callback_data="shortlink_info")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
