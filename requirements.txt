@@ -11,6 +11,7 @@ shortzy
 datetime
 pytz
 aiohttp
+dnspython==2.3.0
 
 #---ytdl----# 
  youtube-search-python 
