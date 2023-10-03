@@ -172,6 +172,8 @@ async def start(client, message):
                         ]
                     )
                 )
+                markup = await 
+    direct_gen_handler(reply_file)
             except Exception as e:
                 logger.warning(e, exc_info=True)
                 continue
