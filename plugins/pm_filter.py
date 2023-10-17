@@ -909,11 +909,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('🌸 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌸', url=CHNL_LNK)
-                            ],[
-                              InlineKeyboardButton("🫧 MY Owner 🫧", url="https://t.me/TheAmanChaudhary")
-                             ]
+                              InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                             ]
+                             ]
                         )
                     )
                 else:
@@ -1001,9 +999,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('🌸 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌸', url=CHNL_LNK)
-                ],[
-                  InlineKeyboardButton("🫧 My Owner 🫧",url="https://t.me/theamanchaudhary")
+                  InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                  ]
                 ]
             )
