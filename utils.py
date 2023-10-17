@@ -1,6 +1,6 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, DIRECT_GEN, DIRECT_GEN_DB, DIRECT_GEN_URL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, IS_SHORTLINK, LOG_CHANNEL, TUTORIAL, GRP_LNK, CHNL_LNK, CUSTOM_FILE_CAPTION, SECOND_SHORTLINK_URL, SECOND_SHORTLINK_API
+from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, IS_SHORTLINK, LOG_CHANNEL, TUTORIAL, GRP_LNK, CHNL_LNK, CUSTOM_FILE_CAPTION, SECOND_SHORTLINK_URL, SECOND_SHORTLINK_API
 from imdb import Cinemagoer 
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
@@ -65,43 +65,6 @@ async def is_subscribed(bot, query):
             return True
 
     return False
-async def direct_gen_handler(m: Message):
-     if not DIRECT_GEN:
-         return None, None
-     try:
-         log_msg = await m.copy(chat_id=DIRECT_GEN_DB)
-         stream_link, download_link = await gen_link(log_msg)
-         if stream_link and download_link:
-             if not m.reply_markup:
-                 markup = InlineKeyboardMarkup(
-                 [
-                     [
-                         InlineKeyboardButton("🎥 Stream 🎥", url=stream_link),
-                         InlineKeyboardButton("📥 Download 📥", url=download_link),
-                     ]
-                 ]
-             )
-             else:
-                 markup = m.reply_markup.inline_keyboard.copy()
-                 markup.insert(
-                     0,
-                     [
-                         InlineKeyboardButton("🎥 Stream 🎥", url=stream_link),
-                         InlineKeyboardButton("📥 Download 📥", url=download_link),
-                     ]
-                 )
-                 markup = InlineKeyboardMarkup(markup)
-             return markup
-     except FloodWait as e:
-         await asyncio.sleep(e.value)
-         await direct_gen_handler(m)
-
-
- # Direct Link Generator
- async def gen_link(log_msg):
-     page_link = f"{DIRECT_GEN_URL}watch/{get_hash(log_msg)}{log_msg.id}"
-     stream_link = f"{DIRECT_GEN_URL}{log_msg.id}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
-     return page_link, stream_link
 
  def get_media_from_message(message: "Message"):
      media_types = (
