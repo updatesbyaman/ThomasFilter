@@ -184,11 +184,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-╔════ 😉😉😉😉😉 ════╗
- Thanks for using me, My friend 
-      Keep supporting 
-╚════ 😍😍😍😍😍 ════╝</b>""" 
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
