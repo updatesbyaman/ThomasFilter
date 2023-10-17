@@ -144,9 +144,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🚦Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🚦', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
+                          InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                          ]
                         ]
                     )
@@ -162,9 +160,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🚦Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🚦', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
+                          InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                          ]
                         ]
                     )
@@ -325,9 +321,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🚦Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🚦', url=CHNL_LNK)
-                       ],[
-                      InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
+                      InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                      ]
                     ]
                 )
@@ -386,9 +380,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🚦Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🚦', url=CHNL_LNK)
-                       ],[
-                      InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
+                      InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                      ]
                     ]
                 )
@@ -445,9 +437,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🚦Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🚦', url=CHNL_LNK)
-           ],[
-              InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
+              InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
              ]
             ]
         )
