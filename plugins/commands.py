@@ -25,9 +25,6 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🌸 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🌸', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✨ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ✨', url="https://t.me/+3O8FUcjUTM43ZTk1"),
-                    InlineKeyboardButton('🫧 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🫧', url="https://t.me/Ac_Films05")
-                ],[
                     InlineKeyboardButton('🌼 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -70,7 +67,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link
+                    "🚦 Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 🚦", url=invite_link.invite_link
                 )
             ]
         ]
@@ -147,7 +144,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🌼 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
+                          InlineKeyboardButton('🚦Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🚦', url=CHNL_LNK)
                        ],[
                           InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
                          ]
@@ -165,7 +162,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🌼 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
+                          InlineKeyboardButton('🚦Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🚦', url=CHNL_LNK)
                        ],[
                           InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
                          ]
@@ -334,7 +331,7 @@ if markup else None
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🌼 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
+                      InlineKeyboardButton('🚦Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🚦', url=CHNL_LNK)
                        ],[
                       InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
                      ]
@@ -395,7 +392,7 @@ if markup else None
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🌼 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
+                      InlineKeyboardButton('🚦Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🚦', url=CHNL_LNK)
                        ],[
                       InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
                      ]
@@ -454,7 +451,7 @@ if markup else None
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🌼 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌼', url=CHNL_LNK)
+              InlineKeyboardButton('🚦Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🚦', url=CHNL_LNK)
            ],[
               InlineKeyboardButton("🫧 MY Owner 🫧", url="t.me/theamanchaudhary")
              ]
