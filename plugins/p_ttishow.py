@@ -38,7 +38,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('🍿 Movie Zone 🍿', url=CHNL_LNK)
+                    InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                  ],[
                     InlineKeyboardButton("🫧 Bᴏᴛ Oᴡɴᴇʀ 🫧", url="t.me/theamanchaudhary")
                   ]]
@@ -62,7 +62,7 @@ async def save_group(bot, message):
                                                                          [[
                                                                            InlineKeyboardButton('🍿 Movie Zone 🍿', url=CHNL_LNK)
                                                                         ],[
-                                                                           InlineKeyboardButton("🫧 Bᴏᴛ Oᴡɴᴇʀ 🫧", url="t.me/theamanchaudhary")
+                                                                           InlineKeyboardButton("🫧 Bᴏᴛ Oᴡɴᴇʀ 🫧", url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
