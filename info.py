@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28271319'))
 API_HASH = environ.get('API_HASH', '84d8b635a127218158581c0fd8225770')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6685990503:AAHutadupwKlsSPnVmb1CGk1pRbrJKoWkk8")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6709926487:AAEbzOeeAQQcXHlW2dzWh4fkhez-8NDI2rk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -81,6 +81,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), False)
+
+QUALITIES = ["360p", "480p", "720p", "1080p", "1440p", "2160p"]
 
 LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
 
