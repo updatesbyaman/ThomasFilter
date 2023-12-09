@@ -445,7 +445,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🚦𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄🚦",callback_data="pages")]
+            [InlineKeyboardButton(text="🍂𝗡𝗼 𝗠𝗼𝗿𝗲 𝗣𝗮𝗴𝗲𝘀 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲🍂",callback_data="pages")]
         )
     # if ENABLE_SHORTLINK == True:
     btn.insert(0, [
@@ -798,7 +798,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             )
     else:
         btn.append(
-            [InlineKeyboardButton(text="😶 ɴᴏ ᴍᴏʀᴇ ᴘᴀɢᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ 😶",callback_data="pages")]
+            [InlineKeyboardButton(text="🍂𝗡𝗼 𝗠𝗼𝗿𝗲 𝗣𝗮𝗴𝗲𝘀 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲🍂",callback_data="pages")]
         )
     # if ENABLE_SHORTLINK == True:
     btn.insert(0, [
@@ -1105,7 +1105,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+                              InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                             ]
                              ]
                         )
@@ -1195,7 +1195,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+                  InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                  ]
                 ]
             )
@@ -1561,7 +1561,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('𝗛𝗘𝗟𝗣', callback_data='help'),
                     InlineKeyboardButton('𝗔𝗕𝗢𝗨𝗧', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🍂 𝗚𝗲𝘁 𝗔𝗗𝗦 𝗙𝗿𝗲𝗲 𝗙𝗶𝗹𝗲 🍂', callback_data='AMAN')
+                    InlineKeyboardButton('🍂 𝗚𝗲𝘁 𝗔𝗗𝗦 𝗙𝗿𝗲𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 🍂', callback_data='AMAN')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1656,7 +1656,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/af9fce38698da53f551b7.jpg")
+            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
         ) 
         await query.message.edit_text(
             text=script.AMAN_TXT,
@@ -1684,7 +1684,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/af9fce38698da53f551b7.jpg")
+            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
         ) 
         await query.message.edit_text(
             text=script.CHECK_TXT,
@@ -1711,7 +1711,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/af9fce38698da53f551b7.jpg")
+            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN1_TXT,
@@ -1738,7 +1738,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/af9fce38698da53f551b7.jpg")
+            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN2_TXT,
@@ -1765,7 +1765,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/af9fce38698da53f551b7.jpg")
+            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN3_TXT,
@@ -1818,7 +1818,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/e753f50b93fb047d1f551.jpg")
+            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
         )
         await query.message.edit_text(
             text=script.SOURCE_TXT,
@@ -1986,7 +1986,7 @@ InputMediaPhoto(random.choice(PICS))
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("🫧 Cᴏɴᴛᴀᴄᴛ 🫧", url="telegram.me/theamanchaudhary")
+                    InlineKeyboardButton("𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀", url="telegram.me/theamanchaudhary")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2216,7 +2216,7 @@ async def auto_filter(client, msg, spoll=False):
             )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🍂𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄🍂",callback_data="pages")]
+            [InlineKeyboardButton(text="🍂𝗡𝗼 𝗠𝗼𝗿𝗲 𝗣𝗮𝗴𝗲𝘀 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲🍂",callback_data="pages")]
         )
     # imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     cur_time = datetime.now(pytz.timezone('Asia/Kolkata')).time()
@@ -2386,7 +2386,7 @@ async def advantage_spell_chok(client, msg):
     if not movielist:
         reqst_gle = query.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ᴀᴅᴍɪɴꜱ", url=f"https://t.me/theamanchaudhary")
+                   InlineKeyboardButton("📝 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗔𝗱𝗺𝗶𝗻", url=f"https://t.me/theamanchaudhary")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
