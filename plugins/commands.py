@@ -46,7 +46,7 @@ async def start(client, message):
                     InlineKeyboardButton('🍂 𝗚𝗲𝘁 𝗔𝗗𝗦 𝗙𝗿𝗲𝗲 𝗙𝗶𝗹𝗲 🍂', callback_data='Aman')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("https://te.legra.ph/file/b9ef16aa49e669fb14da7.jpg") 
+        m=await message.reply_sticker("CAACAgIAAxkBAAEBX4RlH6KWlmN63-NAKmqJrDfX_qB1DgACVAADQbVWDGq3-McIjQH6HgQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -65,7 +65,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🚦 Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 🚦", url=invite_link.invite_link
+                    "〽️ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 〽️", url=invite_link.invite_link
                 )
             ]
         ]
