@@ -43,7 +43,7 @@ async def start(client, message):
                     InlineKeyboardButton('𝗛𝗘𝗟𝗣', callback_data='help'),
                     InlineKeyboardButton('𝗔𝗕𝗢𝗨𝗧', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🍂 𝗚𝗲𝘁 𝗔𝗗𝗦 𝗙𝗿𝗲𝗲 𝗙𝗶𝗹𝗲 🍂', callback_data='Aman')
+                    InlineKeyboardButton('🍂 𝗚𝗲𝘁 𝗔𝗗𝗦 𝗙𝗿𝗲𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 🍂', callback_data='Aman')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgIAAxkBAAEBX4RlH6KWlmN63-NAKmqJrDfX_qB1DgACVAADQbVWDGq3-McIjQH6HgQ") 
@@ -91,7 +91,7 @@ async def start(client, message):
                     InlineKeyboardButton('𝗛𝗘𝗟𝗣', callback_data='help'),
                     InlineKeyboardButton('𝗔𝗕𝗢𝗨𝗧', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🍂 𝗚𝗲𝘁 𝗔𝗗𝗦 𝗙𝗿𝗲𝗲 𝗙𝗶𝗹𝗲 🍂', callback_data='Aman')
+                    InlineKeyboardButton('🍂 𝗚𝗲𝘁 𝗔𝗗𝗦 𝗙𝗿𝗲𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 🍂', callback_data='Aman')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -142,7 +142,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+                          InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                          ]
                         ]
                     )
@@ -158,7 +158,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+                          InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                          ]
                         ]
                     )
@@ -319,7 +319,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+                      InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                      ]
                     ]
                 )
@@ -378,7 +378,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+                      InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
                      ]
                     ]
                 )
@@ -435,7 +435,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🍿 Movie Zone 🍿', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+              InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
              ]
             ]
         )
@@ -1066,5 +1066,5 @@ async def settutorial(bot, message):
 async def stop_button(bot, message):
     msg = await bot.send_message(text="**🔄 𝙿𝚁𝙾𝙲𝙴𝚂𝚂𝙴𝚂 𝚂𝚃𝙾𝙿𝙴𝙳. 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶...**", chat_id=message.chat.id)       
     await asyncio.sleep(3)
-    await msg.edit("**✅️ 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙴𝙳. 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴**")
+    await msg.edit("**✅️ 𝗕𝗼𝘁 𝗜𝘀 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗲𝗱, 𝗡𝗼𝘄 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗨𝘀𝗲 𝗠𝗲 ⚡️**")
     os.execl(sys.executable, sys.executable, *sys.argv)
