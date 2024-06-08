@@ -1986,7 +1986,7 @@ InputMediaPhoto(random.choice(PICS))
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀", url="telegram.me/theamanchaudhary")
+                    InlineKeyboardButton("𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀", url="telegram.me/Movie_Request_01Bot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2386,7 +2386,7 @@ async def advantage_spell_chok(client, msg):
     if not movielist:
         reqst_gle = query.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("📝 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗔𝗱𝗺𝗶𝗻", url=f"https://t.me/theamanchaudhary")
+                   InlineKeyboardButton("💠 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 Your Movie 💠", url=f"https://t.me/Movie_Request_01Bot")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
