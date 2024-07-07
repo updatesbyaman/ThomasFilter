@@ -38,9 +38,9 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+                    InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/screenbeam"))
                  ],[
-                    InlineKeyboardButton("𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀", url="t.me/theamanchaudhary")
+                    InlineKeyboardButton("𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀", url="t.me/Thomassselby")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -62,7 +62,7 @@ async def save_group(bot, message):
                                                                          [[
                                                                            InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=CHNL_LNK)
                                                                         ],[
-                                                                           InlineKeyboardButton("𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀", url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+                                                                           InlineKeyboardButton("𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀", url=(f"https://t.me/Thomassselby"))
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
@@ -87,9 +87,9 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀', url="https://t.me/theamanchaudhary")
+            InlineKeyboardButton('𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀', url="https://t.me/Thomassselby")
         ],[
-            InlineKeyboardButton('🎗️ 𝗨𝘀𝗲 𝗠𝗲 𝗛𝗲𝗿𝗲 🎗️', url=f'https://t.me/+3O8FUcjUTM43ZTk1')
+            InlineKeyboardButton('🎗️ 𝗨𝘀𝗲 𝗠𝗲 𝗛𝗲𝗿𝗲 🎗️', url=f'https://t.me/screenbeam')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
