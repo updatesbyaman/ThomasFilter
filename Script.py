@@ -6,8 +6,8 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """
-<b>‣ 𝗠𝗬 𝗡𝗔𝗠𝗘 : <a href="https://t.me/{}">𝗔𝗕𝘅𝗙𝗶𝗻𝗱𝗲𝗿𝗕𝗼𝗧</a>
-‣ 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 : <a href="https://t.me/theamanchaudhary">𝗔𝗠𝗔𝗡 𝗖𝗛𝗔𝗨𝗗𝗛𝗔𝗥𝗬 〽️</a>
+<b>‣ 𝗠𝗬 𝗡𝗔𝗠𝗘 : <a href="https://t.me/{}">ScreenBeam Bot</a>
+‣ 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 : <a href="https://t.me/Thomassselby">Thomas Shelby 〽️</a>
 ‣ 𝗕𝘂𝗶𝗹𝗱 𝗦𝘁𝗮𝘁𝘂𝘀 : ᴠ.𝟹.𝟶 [ꜱᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """
@@ -48,7 +48,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/AmanBotz)</code>
+<code>[Button Text](buttonurl:https://t.me/Thomassselby)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -136,12 +136,12 @@ Nᴀᴍᴇ - {}"""
     CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
 ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
-    I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ {} 😕\n\n REQUEST MOVIE TO ADMINS \n👉 @Movie_Request_01Bot...</b>"""
+    I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ {} 😕\n\n REQUEST MOVIE TO ADMINS \n👉 @Thomassselby...</b>"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
 
-    MVE_NT_FND = """SORRY NO FILES WERE FOUND FOR YOUR REQUEST 💯\n\n REQUEST MOVIE TO ADMINS \n👉 @Movie_Request_01Bot..."""
+    MVE_NT_FND = """SORRY NO FILES WERE FOUND FOR YOUR REQUEST 💯\n\n REQUEST MOVIE TO ADMINS \n👉 @Thomassselby..."""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
@@ -158,7 +158,7 @@ sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢ
 
 sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://Ziplinker.net/ref/theamanchaudhary>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
 
-sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/UpdatesByAman/11> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
+sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/Thomassselby/11> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
 
 ➣ Yᴏᴜ ᴄᴀɴ ᴄᴏɴɴᴇᴄᴛ ᴀs ᴍᴀɴʏ ɢʀᴏᴜᴘ ʏᴏᴜ ʜᴀᴠᴇ.
 
@@ -239,28 +239,28 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 ᴘʟᴀɴ ʙ : 𝟷 ᴍᴏɴᴛʜ / 7𝟵𝗥𝘀
 ᴘʟᴀɴ ᴄ : 𝟷 ʏᴇᴀʀ / 699𝗥𝘀
 
-➻ ᴜᴘɪ ɪᴅ : amanchaudhary2100@oksbi
+➻ ᴜᴘɪ ɪᴅ : Neeraj.971@paytm
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ ɢɪᴠᴇ ᴍᴇ sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"""
 
     PLAN1_TXT = """
 <b>🔥 ᴘᴀʏ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ ғᴇᴇs 3𝟰𝗥𝘀 ғᴏʀ 𝟷 ᴡᴇᴇᴋ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇss ᴡɪᴛʜ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ. 
 
-➻ ᴜᴘɪ ɪᴅ : amanchaudhary2100@oksbi
+➻ ᴜᴘɪ ɪᴅ : Neeraj.971@paytm
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ ɢɪᴠᴇ ᴍᴇ sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"""
 
     PLAN2_TXT = """
 <b>🔥 ᴘᴀʏ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ ғᴇᴇs 7𝟵𝗥𝘀 ғᴏʀ 𝟷 ᴍᴏɴᴛʜ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇss ᴡɪᴛʜ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ. 
 
-➻ ᴜᴘɪ ɪᴅ : amanchaudhary2100@oksbi
+➻ ᴜᴘɪ ɪᴅ : Neeraj.971@paytm
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ ɢɪᴠᴇ ᴍᴇ sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"""
 
     PLAN3_TXT = """
 <b>🔥 ᴘᴀʏ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ ғᴇᴇs 699𝗥𝘀 ғᴏʀ 𝟷 ʏᴇᴀʀ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇss ᴡɪᴛʜ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ. 
 
-➻ ᴜᴘɪ ɪᴅ : amanchaudhary2100@oksbi
+➻ ᴜᴘɪ ɪᴅ : Neeraj.971@paytm
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ ɢɪᴠᴇ ᴍᴇ sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"""
 
@@ -323,6 +323,6 @@ yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴜʟᴇ ᴛᴏ ᴄʜᴀɴɢᴇ �
 
 FEATURES_TXT = """<b>my features Stay here new features coming soon...
 
-<b>✯ Maintained by : <a href=https://t.me/theamanchaudhary>☢ Aman Chaudhary ☢</a></b>
+<b>✯ Maintained by : <a href=https://t.me/Thomassselby>☢ Thomas Shelby ☢</a></b>
 
-<b>✯ Join here : <a href=https://t.me/AmanBotz>☢Join my Updates☢</a></b>"""
+<b>✯ Join here : <a href=https://t.me/ScreenBeamUpdates>☢Join my Updates☢</a></b>"""
