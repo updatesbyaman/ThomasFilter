@@ -78,8 +78,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/+3O8FUcjUTM43ZTk1>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗛𝗲𝗿𝗲", url=f"https://t.me/+3O8FUcjUTM43ZTk1")]])
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/screenbeam>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗛𝗲𝗿𝗲", url=f"https://t.me/screenbeam")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -1105,7 +1105,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         reply_markup=InlineKeyboardMarkup(
                             [
                              [
-                              InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+                              InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/screenbeam"))
                             ]
                              ]
                         )
@@ -1195,7 +1195,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/+KWymR1iqlPo1NGM5"))
+                  InlineKeyboardButton('〽️ 𝗠𝗼𝘃𝗶𝗲 𝗭𝗼𝗻𝗲 〽️', url=(f"https://t.me/screenbeam"))
                  ]
                 ]
             )
@@ -1480,7 +1480,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('🌸 Jᴏɪɴ Cʜᴀɴɴᴇʟ 🌸', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("🫧 Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ 🫧", url="https://t.me/+3O8FUcjUTM43ZTk1")
+                 InlineKeyboardButton("🫧 Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ 🫧", url="https://t.me/screenbeam")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1505,7 +1505,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('🌸 Jᴏɪɴ Cʜᴀɴɴᴇʟ 🌸', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("🫧 Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ 🫧", url="https://t.me/+3O8FUcjUTM43ZTk1")
+                 InlineKeyboardButton("🫧 Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ 🫧", url="https://t.me/screenbeam")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1641,7 +1641,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝗖𝗛𝗘𝗖𝗞 𝗣𝗟𝗔𝗡𝗦 ✅', callback_data='check'), 
         ],[
-            InlineKeyboardButton('𝗛𝗢𝗪 𝗜𝗧 𝗪𝗢𝗥𝗞𝗦 ⚡️', url="https://t.me/AmanBotz"), 
+            InlineKeyboardButton('𝗛𝗢𝗪 𝗜𝗧 𝗪𝗢𝗥𝗞𝗦 ⚡️', url="https://t.me/ScreenBeamUpdates"), 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1656,7 +1656,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
+            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
         ) 
         await query.message.edit_text(
             text=script.AMAN_TXT,
@@ -1684,7 +1684,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
+            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
         ) 
         await query.message.edit_text(
             text=script.CHECK_TXT,
@@ -1693,8 +1693,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "plan1":
         buttons = [[
-            InlineKeyboardButton('𝗦𝗲𝗻𝗱 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁 👀', url="https://t.me/theamanchaudhary"), 
-            InlineKeyboardButton('𝗛𝗢𝗪 𝗜𝗧 𝗪𝗢𝗥𝗞𝗦 ⚡️', url="https://t.me/AmanBotz") 
+            InlineKeyboardButton('𝗦𝗲𝗻𝗱 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁 👀', url="https://t.me/Thomassselby"), 
+            InlineKeyboardButton('𝗛𝗢𝗪 𝗜𝗧 𝗪𝗢𝗥𝗞𝗦 ⚡️', url="https://t.me/ScreenBeamUpdates") 
         ],[
             InlineKeyboardButton('𝗖𝗛𝗘𝗖𝗞 𝗣𝗟𝗔𝗡𝗦 ✅', callback_data='check')
         ]]
@@ -1711,7 +1711,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
+            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
         ) 
         await query.message.edit_text(
             text=script.PLAN1_TXT,
@@ -1720,8 +1720,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan2":
         buttons = [[
-            InlineKeyboardButton('𝗦𝗲𝗻𝗱 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁 👀', url="https://t.me/theamanchaudhary"), 
-            InlineKeyboardButton('𝗛𝗢𝗪 𝗜𝗧 𝗪𝗢𝗥𝗞𝗦 ⚡️', url="https://t.me/AmanBotz") 
+            InlineKeyboardButton('𝗦𝗲𝗻𝗱 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁 👀', url="https://t.me/Thomassselby"), 
+            InlineKeyboardButton('𝗛𝗢𝗪 𝗜𝗧 𝗪𝗢𝗥𝗞𝗦 ⚡️', url="https://t.me/ScreenBeamUpdates") 
         ],[
             InlineKeyboardButton('𝗖𝗛𝗘𝗖𝗞 𝗣𝗟𝗔𝗡𝗦 ✅', callback_data='check')                   
         ]]
@@ -1738,7 +1738,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
+            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
         ) 
         await query.message.edit_text(
             text=script.PLAN2_TXT,
@@ -1747,8 +1747,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan3":
         buttons = [[
-            InlineKeyboardButton('𝗦𝗲𝗻𝗱 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁 👀', url="https://t.me/theamanchaudhary"), 
-            InlineKeyboardButton('𝗛𝗢𝗪 𝗜𝗧 𝗪𝗢𝗥𝗞𝗦 ⚡️', url="https://t.me/AmanBotz") 
+            InlineKeyboardButton('𝗦𝗲𝗻𝗱 𝗦𝗰𝗿𝗲𝗲𝗻𝗦𝗵𝗼𝘁 👀', url="https://t.me/Thomassselby"), 
+            InlineKeyboardButton('𝗛𝗢𝗪 𝗜𝗧 𝗪𝗢𝗥𝗞𝗦 ⚡️', url="https://t.me/ScreenBeamUpdates") 
         ],[
             InlineKeyboardButton('𝗖𝗛𝗘𝗖𝗞 𝗣𝗟𝗔𝗡𝗦 ✅', callback_data='check')
         ]]
@@ -1765,7 +1765,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/e42f0c6258be8499204d1.jpg")
+            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
         ) 
         await query.message.edit_text(
             text=script.PLAN3_TXT,
@@ -1818,7 +1818,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/e753f50b93fb047d1f551.jpg")
+            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
         )
         await query.message.edit_text(
             text=script.SOURCE_TXT,
@@ -1986,7 +1986,7 @@ InputMediaPhoto(random.choice(PICS))
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀", url="telegram.me/Movie_Request_01Bot")
+                    InlineKeyboardButton("𝗖𝗼𝗻𝘁𝗮𝗰𝘁 👀", url="telegram.me/Thomassselby")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2386,7 +2386,7 @@ async def advantage_spell_chok(client, msg):
     if not movielist:
         reqst_gle = query.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("💠 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 Your Movie 💠", url=f"https://t.me/Movie_Request_01Bot")
+                   InlineKeyboardButton("💠 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 Your Movie 💠", url=f"https://t.me/screenbeam")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
