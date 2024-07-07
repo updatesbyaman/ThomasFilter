@@ -1656,7 +1656,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
+            InputMediaPhoto("https://graph.org/file/9e8aeba5ae5720855d68b.jpg")
         ) 
         await query.message.edit_text(
             text=script.AMAN_TXT,
@@ -1684,7 +1684,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
+            InputMediaPhoto("https://graph.org/file/9e8aeba5ae5720855d68b.jpg")
         ) 
         await query.message.edit_text(
             text=script.CHECK_TXT,
@@ -1711,7 +1711,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
+            InputMediaPhoto("https://graph.org/file/9e8aeba5ae5720855d68b.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN1_TXT,
@@ -1738,7 +1738,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
+            InputMediaPhoto("https://graph.org/file/9e8aeba5ae5720855d68b.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN2_TXT,
@@ -1765,7 +1765,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
+            InputMediaPhoto("https://graph.org/file/9e8aeba5ae5720855d68b.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN3_TXT,
@@ -1818,7 +1818,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/0b00947197bcc375347a9.png")
+            InputMediaPhoto("https://graph.org/file/9e8aeba5ae5720855d68b.jpg")
         )
         await query.message.edit_text(
             text=script.SOURCE_TXT,
